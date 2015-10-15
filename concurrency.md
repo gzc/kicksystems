@@ -14,9 +14,6 @@ Modern operating systems provide three basic approaches for building concurrent 
 2. I/O multiplexing.
 3. Threads.
 
-This chapter investigates these three different concurrent programming techniques.
-
-
 ##### Concurrent Programming with Processes
 
 
