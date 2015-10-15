@@ -32,4 +32,6 @@ Threads的模型中, 会出现race. 采用P,V操作来解决.
 下面看一些经典问题.
 
 ###Readers/Writers
-
+1. An object is shared among several threads
+2. Some threads only read the object, others only write it
+3. We can allow multiple readers but only one writer
