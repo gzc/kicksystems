@@ -59,3 +59,5 @@ Threads wait for other threads to terminate by calling the **pthread_join** func
     int pthread_join(pthread_t tid, void **thread_return);
 
                             Returns: 0 if OK, nonzero on error
+                            
+调用该函数的时候会堵塞
