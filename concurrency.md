@@ -95,4 +95,5 @@ Use three variables
             Consume resource;
         }
     }
-    
+  
+###Related Problems
