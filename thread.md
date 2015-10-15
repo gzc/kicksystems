@@ -60,4 +60,4 @@ Threads wait for other threads to terminate by calling the **pthread_join** func
 
                             Returns: 0 if OK, nonzero on error
                             
-调用该函数的时候会堵塞
+调用该函数的时候会堵塞，直到
