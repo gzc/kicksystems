@@ -67,4 +67,4 @@ Use three variables
         if (readcount == 0)
             signal(w_or_r); // up for grabs
         signal(mutex); // unlock readcount}
-}
+    }
