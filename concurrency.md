@@ -104,4 +104,6 @@ Use three variables
 4. Functions that call thread-unsafe functions.
 
 ####Reentrancy
-可重入函数
+可重入函数，是thread safe的，因为这种函数不会引入共享数据
+
+####Race
