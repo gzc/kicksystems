@@ -40,3 +40,16 @@ Use three variables
 1. int readcount – number of threads reading object
 2. Semaphore mutex – control access to readcount
 3. Semaphore w_or_r – exclusive writing or reading
+ 
+    
+    // number of readers
+    int readcount = 0;
+    // mutual exclusion to readcount
+    Semaphore mutex = 1;
+    // exclusive writer or reader
+    Semaphore w_or_r = 1;
+    writer {
+    wait(w_or_r); // lock out readers
+    Write;
+    signal(w_or_r); // up for grabs
+    }
