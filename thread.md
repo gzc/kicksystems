@@ -28,6 +28,5 @@ sample code:
 ###Creating Threads
     #include <pthread.h>
     typedef void *(func)(void *);
-    int pthread_create(pthread_t *tid, pthread_attr_t *attr, 
-                                                func *f, void *arg);
-                                            Returns: 0 if OK, nonzero on error
+    int pthread_create(pthread_t *tid, pthread_attr_t *attr, func *f, void *arg);
+                                                Returns: 0 if OK, nonzero on error
