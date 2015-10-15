@@ -61,3 +61,5 @@ Threads wait for other threads to terminate by calling the **pthread_join** func
                             Returns: 0 if OK, nonzero on error
                             
 调用该函数的时候会堵塞，直到tid那个thread返回，然后回收已终止thread的所有存储器资源. **和wait()函数不同, pthread_join只能等待一个指定tid的thread, 而不能等待所有的.**
+
+###Detaching Threads
