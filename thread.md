@@ -38,3 +38,4 @@ sample code:
     
                                                 Returns: thread ID of caller
 
+###Terminating Threads
