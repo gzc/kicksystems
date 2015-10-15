@@ -107,3 +107,5 @@ Use three variables
 可重入函数，是thread safe的，因为这种函数不会引入共享数据
 
 ####Race
+
+####Deadlock
