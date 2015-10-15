@@ -48,8 +48,23 @@ Use three variables
     Semaphore mutex = 1;
     // exclusive writer or reader
     Semaphore w_or_r = 1;
+
     writer {
         wait(w_or_r); // lock out readers
         Write;
         signal(w_or_r); // up for grabs
     }
+    
+    reader {
+        wait(mutex); // lock readcount
+        readcount += 1; // one more reader
+        if (readcount == 1)
+            wait(w_or_r); // synch w/ writers
+        signal(mutex); // unlock readcount
+        Read;
+        wait(mutex); // lock readcount
+        readcount -= 1; // one less reader
+        if (readcount == 0)
+            signal(w_or_r); // up for grabs
+        signal(mutex); // unlock readcount}
+}
