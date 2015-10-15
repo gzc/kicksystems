@@ -98,4 +98,5 @@ Use three variables
   
 ###Related Problems
 ####Thread Safety
-1. Class 1: Functions that do not protect shared variables.
+1. Functions that do not protect shared variables.
+2. Functions that keep state across multiple invocations.
