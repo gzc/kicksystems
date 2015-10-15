@@ -8,5 +8,5 @@ Thread由kernel调度, 并且kernel知道有这么一个thread(通过PID). 因�
 Thread的context switch要比process的context switch快很多. 跟process有父子关系不同, threads之间地位平等，可以互相kill,wait,也能互相读写shared data.
 
 ##Posix Threads
-
+Posix threads (Pthreads) is a standard interface for manipulating threads from C programs. It was adopted in 1995 and is available on most Unix systems. Pthreads defines about 60 functions that allow programs to create, kill, and reap threads, to share data safely with peer threads, and to notify peers about changes in the system state.
 
