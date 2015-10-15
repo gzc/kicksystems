@@ -70,3 +70,6 @@ Use three variables
     }
     
 ###Bounded Buffer
+    Semaphore mutex = 1; // mutual exclusion to shared set of buffers
+    Semaphore empty = N; // count of empty buffers (all empty to     start)
+    Semaphore full = 0; // count of full buffers (none full to start)
