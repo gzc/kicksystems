@@ -28,3 +28,5 @@ Con : Separate address spaces make it more difficult for pro- cesses to share st
 
 ##Synchronizing Threads with Semaphores
 Threads的模型中, 会出现race. 采用P,V操作来解决.
+
+下面看一些经典问题.
