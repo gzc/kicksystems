@@ -46,4 +46,4 @@ The thread terminates explicitly by calling the **pthread_exit** function. If th
 
                             Returns: 0 if OK, nonzero on error
                             
-如果thread调用**exit()**,那么会terminate该process和与其关联的所有threads.
+如果thread调用**exit()**,那么会terminate该process和与其关联的所有threads. 也可以调用**pthread_ cancel** terminal 当前进程.
