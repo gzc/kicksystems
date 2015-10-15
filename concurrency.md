@@ -51,7 +51,7 @@ Use three variables
 
     writer {
         wait(w_or_r); // lock out readers
-        **Write**;
+        Write;
         signal(w_or_r); // up for grabs
     }
     
@@ -61,7 +61,7 @@ Use three variables
         if (readcount == 1)
             wait(w_or_r); // synch w/ writers
         signal(mutex); // unlock readcount
-        **Read**;
+        Read;
         wait(mutex); // lock readcount
         readcount -= 1; // one less reader
         if (readcount == 0)
