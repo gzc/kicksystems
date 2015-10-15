@@ -51,7 +51,7 @@ Use three variables
 
     writer {
         wait(w_or_r); // lock out readers
-        Write;
+        **Write**;
         signal(w_or_r); // up for grabs
     }
     
