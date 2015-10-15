@@ -35,3 +35,8 @@ Threads的模型中, 会出现race. 采用P,V操作来解决.
 1. An object is shared among several threads
 2. Some threads only read the object, others only write it
 3. We can allow multiple readers but only one writer
+
+Use three variables
+1. int readcount – number of threads reading object
+2. Semaphore mutex – control access to readcount
+3. Semaphore w_or_r – exclusive writing or reading
