@@ -71,3 +71,5 @@ Threads wait for other threads to terminate by calling the **pthread_join** func
                         Returns: 0 if OK, nonzero on error
                         
 detach thread是一个很好的操作. 因为在web服务器中，每次有一个请求过来，我们不可能去调用**pthread_join**来显示回收资源. 最好的办法就是detach thread, 让系统自动回收资源.
+
+###Initializing Threads
