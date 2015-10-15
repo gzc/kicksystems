@@ -65,3 +65,7 @@ Threads wait for other threads to terminate by calling the **pthread_join** func
 ###Detaching Threads
 一个没有被detach的thread可以被杀死. 而detached的thread不能够被其他thread kill, 它的资源在终止时由系统自动释放.
 
+    #include <pthread.h>
+    int pthread_detach(pthread_t tid);
+            
+                        Returns: 0 if OK, nonzero on error
