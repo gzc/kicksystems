@@ -52,3 +52,5 @@ The thread terminates explicitly by calling the **pthread_exit** function. If th
     int pthread_cancel(pthread_t tid);
 
                             Returns: 0 if OK, nonzero on error
+                            
+###Reaping Terminated Threads
