@@ -49,7 +49,7 @@ Use three variables
     // exclusive writer or reader
     Semaphore w_or_r = 1;
     writer {
-    wait(w_or_r); // lock out readers
-    Write;
-    signal(w_or_r); // up for grabs
+        wait(w_or_r); // lock out readers
+        Write;
+        signal(w_or_r); // up for grabs
     }
