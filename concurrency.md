@@ -85,3 +85,14 @@ Use three variables
         }
     }
     
+    consumer {
+        while (1) {
+            wait(full); // wait for a full buffer
+            wait(mutex); // lock buffer list
+            Remove resource from a full buffer;
+            signal(mutex); // unlock buffer list
+            signal(empty); // note an empty buffer
+            Consume resource;
+        }
+    }
+    
