@@ -55,3 +55,7 @@ The thread terminates explicitly by calling the **pthread_exit** function. If th
                             
 ###Reaping Terminated Threads
 Threads wait for other threads to terminate by calling the **pthread_join** function.
+    #include <pthread.h>
+    int pthread_join(pthread_t tid, void **thread_return);
+
+                            Returns: 0 if OK, nonzero on error
