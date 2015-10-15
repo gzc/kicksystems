@@ -17,7 +17,7 @@ Modern operating systems provide three basic approaches for building concurrent 
 This chapter investigates these three different concurrent programming techniques.
 
 
-## Concurrent Programming with Processes
+##### Concurrent Programming with Processes
 
 
 Pro : It is impossible for one process to accidentally overwrite the virtual memory of another process, which eliminates a lot of confusing failures—an obvious advantage.
@@ -25,4 +25,4 @@ Pro : It is impossible for one process to accidentally overwrite the virtual mem
 Con : Separate address spaces make it more difficult for pro- cesses to share state information. To share information, they must use explicit IPC (interprocess communications) mechanisms. (See Aside.) Another disadvantage of process-based designs is that they tend to be slower because the overhead for process control and IPC is high.
 
 
-##12.2 Concurrent Programming with I/O Multiplexing
+##### Concurrent Programming with I/O Multiplexing
