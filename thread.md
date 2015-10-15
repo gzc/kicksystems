@@ -45,3 +45,5 @@ The thread terminates explicitly by calling the **pthread_exit** function. If th
     void pthread_exit(void *thread_return);
 
                             Returns: 0 if OK, nonzero on error
+                            
+如果thread调用**exit()**,那么会terminate该process和与其关联的所有threads.
