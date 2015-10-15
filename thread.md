@@ -16,7 +16,7 @@ sample code:
     int main() {
         pthread_t tid;
         Pthread_create(&tid, NULL, thread, NULL); \\create a thread and run function thread
-        Pthread_join(tid, NULL);
+        Pthread_join(tid, NULL); \\wait for peer thread terminate
         exit(0);
     }
     void *thread(void *vargp) /* Thread routine */
