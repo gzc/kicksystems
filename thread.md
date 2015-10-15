@@ -10,3 +10,5 @@ Thread的context switch要比process的context switch快很多. 跟process有父
 ##Posix Threads
 Posix threads (Pthreads) is a standard interface for manipulating threads from C programs. It was adopted in 1995 and is available on most Unix systems. Pthreads defines about 60 functions that allow programs to create, kill, and reap threads, to share data safely with peer threads, and to notify peers about changes in the system state.
 
+
+
