@@ -101,3 +101,4 @@ Use three variables
 1. Functions that do not protect shared variables.
 2. Functions that keep state across multiple invocations.
 3. Functions that return a pointer to a static variable.
+4. Functions that call thread-unsafe functions.
