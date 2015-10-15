@@ -61,7 +61,7 @@ Use three variables
         if (readcount == 1)
             wait(w_or_r); // synch w/ writers
         signal(mutex); // unlock readcount
-        Read;
+        **Read**;
         wait(mutex); // lock readcount
         readcount -= 1; // one less reader
         if (readcount == 0)
