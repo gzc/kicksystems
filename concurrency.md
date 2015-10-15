@@ -102,3 +102,6 @@ Use three variables
 2. Functions that keep state across multiple invocations.(rand函数是threadd unsafe的)
 3. Functions that return a pointer to a static variable.
 4. Functions that call thread-unsafe functions.
+
+####Reentrancy
+可重入函数
