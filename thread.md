@@ -39,3 +39,9 @@ sample code:
                                                 Returns: thread ID of caller
 
 ###Terminating Threads
+The thread terminates explicitly by calling the **pthread_exit** function. If the main thread calls pthread_exit, it waits for all other peer threads to terminate, and then terminates the main thread and the entire process with a return value of thread_return.
+
+    #include <pthread.h>
+    void pthread_exit(void *thread_return);
+
+                            Returns: 0 if OK, nonzero on error
