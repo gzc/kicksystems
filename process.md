@@ -23,4 +23,5 @@ user mode and kernel mode can switch by setting EFLAGS bits.
 ###Creating and Terminating Processes
     #include <stdlib.h> 
     
-    void exit(int status)
+    void exit(int status) 
+                        This function does not return
