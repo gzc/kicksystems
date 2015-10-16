@@ -20,5 +20,6 @@ trap是有意的异常(active),是执行一条指令的结果, 主动触发. tra
 read, fork, execve, exit都需要system call, 这些函数是os提供的服务, 必须运行在kernel mode.
 
 ###fault
+一个经典的fault是page fault exception. 因此fault可能返回到当前指令.
 
 ###abort
