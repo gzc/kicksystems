@@ -12,3 +12,8 @@ An exception is akin to a procedure call, but with some important differences :
 ##不同的异常
 
 ###interrupt
+
+
+###trap & system call
+
+###fault
