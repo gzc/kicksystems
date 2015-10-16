@@ -43,3 +43,8 @@ If the parent process terminates without reaping its zombie children, the kernel
 
 A process waits for its children to terminate or stop by calling the **waitpid** function.
 
+    #include <sys/types.h> 
+    #include <sys/wait.h>
+    pid_t waitpid(pid_t pid, int *status, int options);
+
+                        Returns: PID of child if OK, 0 (if WNOHANG) or −1 on e
