@@ -17,3 +17,5 @@ An exception is akin to a procedure call, but with some important differences :
 ###trap & system call
 
 ###fault
+
+###abort
