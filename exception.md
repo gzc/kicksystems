@@ -49,3 +49,5 @@ linux提供上百种系统调用. 每个系统调用都有一个唯一的整数�
 | 4 |  write | Write file | 48 |  signal | Install signal handler |
 
 System calls are provided on IA32 systems via a trapping instruction called int n, where n can be the index of any of the 256 entries in the IA32 exception table. Historically, system calls are provided through exception 128 (0x80).
+
+system call的参数是通过register而不是stack进行传递的. %eax包含系统调用号, %ebx, %ecx, %edx, %esi, %edi, %ebp包含最多六个任意的参数.
