@@ -43,4 +43,5 @@ linux提供上百种系统调用. 每个系统调用都有一个唯一的整数�
 
 | Number   |    Name      |  Description | Number   |    Name      |  Description |
 |:-------:|:--------:|: ------:|----------|:-------------:|------:|
-| 0 |  Divide error | fault | 0 |  Divide error | fault ｜
+| 1 |  exit | Terminate process | 27 |  alarm | Set signal delivery alarm clock |
+| 2 |  fork | Create new process | 29 |  pause | Suspend process until signal arrives |
