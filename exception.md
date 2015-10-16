@@ -29,6 +29,6 @@ abort是不可恢复的致命错误造成的结果，通常是一些硬件错误
 ##Linux/IA32系统中的异常
 | 异常号   |      描述      |  类别 |
 |----------|:-------------:|------:|
-| 0 |  除法错误 | fault |
-| 13 |    centered   |   $12 |
+| 0 |  Divide error | fault |
+| 13 |   General protection fault   |   fault |
 | col 3 is | right-aligned |    $1 |
