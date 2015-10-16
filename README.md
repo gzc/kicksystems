@@ -3,13 +3,11 @@ FuckSystems aims to help you fuck systems.
 
 We will cover
 
-[Exception](./exception.md)
+1. [Exception](./exception.md)
+2. [Process](./process.md)
+3. [Thread](./thread.md)
 
-[Process](./process.md)
-
-[Thread](./thread.md)
-
-[Concurrency](./concurrency.md)
+4.[Concurrency](./concurrency.md)
 
 
 ***
