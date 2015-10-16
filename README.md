@@ -7,5 +7,7 @@ We will cover
 
 [Thread](./thread.md)
 
+[Concurrency](./concurrency.md)
+
 
 Follow [louis1992](https://github.com/gzc) for more resources.
