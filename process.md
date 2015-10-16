@@ -48,3 +48,5 @@ A process waits for its children to terminate or stop by calling the **waitpid**
     pid_t waitpid(pid_t pid, int *status, int options);
 
                         Returns: PID of child if OK, 0 (if WNOHANG) or −1 on error
+                        
+如何pid > 0,等待特定的process. 如果pid = -1,等待集合就是所有子进程集合.
