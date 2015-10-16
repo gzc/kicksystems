@@ -42,3 +42,4 @@ A terminated process that has not yet been reaped is called a zombie.
 If the parent process terminates without reaping its zombie children, the kernel arranges for the init process to reap them. The init process has a PID of 1 and is created by the kernel during system initialization. 
 
 A process waits for its children to terminate or stop by calling the **waitpid** function.
+
