@@ -54,3 +54,7 @@ A process waits for its children to terminate or stop by calling the **waitpid**
     wait(&status) === waitpid(-1, &status, 0)
     
 ###Putting Processes to Sleep
+    #include <unistd.h>
+    unsigned int sleep(unsigned int secs);
+
+                        Returns: seconds left to sleep
