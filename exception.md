@@ -8,3 +8,7 @@
 An exception is akin to a procedure call, but with some important differences :
 1. 如果从用户程序转移到内核, 那么用户程序的状态会被压到内核栈中.
 2. 异常处理程序运行在**kernel mode**
+
+##不同的异常
+
+###interrupt
