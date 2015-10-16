@@ -19,3 +19,5 @@ user mode and kernel mode can switch by setting EFLAGS bits.
     pid_t getppid(void);
 
                         Returns: PID of either the caller or the parent
+                        
+###Creating and Terminating Processes               
