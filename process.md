@@ -37,3 +37,4 @@ user mode and kernel mode can switch by setting EFLAGS bits.
 注意, fork是COW(copy on write)的.
 
 ###Reaping Child Processes
+A terminated process that has not yet been reaped is called a zombie.
