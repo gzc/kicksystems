@@ -12,7 +12,7 @@ An exception is akin to a procedure call, but with some important differences :
 ##不同的异常
 
 ###interrupt
-
+中断是异步发生的,是来自处理外部的I/O设备信号的结果.
 
 ###trap & system call
 
