@@ -61,19 +61,18 @@ system call的参数是通过register而不是stack进行传递的. %eax包含�
     .globl main
     main:
     \\First, call write(1, "hello, world\n", 13)
-    movl $4, %eax   \\System call number 4
-    movl $1, %ebx    \\stdout has descriptor 1
-    movl $string, %ecx
-    movl $len, %edx
-    int $0x80
+    movl $4, %eax           \\System call number 4
+    movl $1, %ebx           \\stdout has descriptor 1
+    movl $string, %ecx      \\Hello world string
+    movl $len, %edx         \\String length
+    int $0x80               \\System call code
     \\Next, call exit(0)
     movl $1, %eax
     movl $0, %ebx
     int $0x80
     
-stdout has descriptor 1
-Hello world string
-String length
+
+
 System call code
 System call number 0
 Argument is 0
