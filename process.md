@@ -58,3 +58,9 @@ A process waits for its children to terminate or stop by calling the **waitpid**
     unsigned int sleep(unsigned int secs);
 
                         Returns: seconds left to sleep
+                        
+**pause** which puts the calling function to sleep until a signal is received by the process.
+    #include <unistd.h> 
+    int pause(void);
+    
+                        Always returns -1
