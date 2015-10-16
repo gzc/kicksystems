@@ -31,4 +31,7 @@ abort是不可恢复的致命错误造成的结果，通常是一些硬件错误
 |----------|:-------------:|------:|
 | 0 |  Divide error | fault |
 | 13 |   General protection fault   |   fault |
-| col 3 is | right-aligned |    $1 |
+| 14 | Page fault |  fault |
+| 18 | Machine check |  abort |
+| 14 | Page fault |  fault |
+| 14 | Page fault |  fault |
