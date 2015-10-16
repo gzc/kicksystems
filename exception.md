@@ -66,14 +66,8 @@ system call的参数是通过register而不是stack进行传递的. %eax包含�
     movl $string, %ecx      \\Hello world string
     movl $len, %edx         \\String length
     int $0x80               \\System call code
-    \\Next, call exit(0)
-    movl $1, %eax
-    movl $0, %ebx
-    int $0x80
     
-
-
-System call code
-System call number 0
-Argument is 0
-System call code
+    \\Next, call exit(0)
+    movl $1, %eax           \\System call number 0
+    movl $0, %ebx           \\Argument is 0
+    int $0x80               \\System call code
