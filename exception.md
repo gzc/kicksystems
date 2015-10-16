@@ -33,5 +33,5 @@ abort是不可恢复的致命错误造成的结果，通常是一些硬件错误
 | 13 |   General protection fault   |   fault |
 | 14 | Page fault |  fault |
 | 18 | Machine check |  abort |
-| 14 | Page fault |  fault |
-| 14 | Page fault |  fault |
+| 32-127 | OS-defined exceptions |  Interrupt or trap |
+| 128 (0x80) | System call |  trap |
