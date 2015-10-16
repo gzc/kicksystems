@@ -51,3 +51,30 @@ linux提供上百种系统调用. 每个系统调用都有一个唯一的整数�
 System calls are provided on IA32 systems via a trapping instruction called int n, where n can be the index of any of the 256 entries in the IA32 exception table. Historically, system calls are provided through exception 128 (0x80).
 
 system call的参数是通过register而不是stack进行传递的. %eax包含系统调用号, %ebx, %ecx, %edx, %esi, %edi, %ebp包含最多六个任意的参数. stack pointer %esp不能使用, 因为进入kernel mode, kernel会overwrite掉.
+
+    .section .data
+    string:
+    .ascii "hello, world\n"
+    string_end:
+    .equ len, string_end - string
+    .section .text
+    .globl main
+    main:
+    \\First, call write(1, "hello, world\n", 13)
+    movl $4, %eax   \\System call number 4
+    movl $1, %ebx    \\stdout has descriptor 1
+    movl $string, %ecx
+    movl $len, %edx
+    int $0x80
+    \\Next, call exit(0)
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80
+    
+stdout has descriptor 1
+Hello world string
+String length
+System call code
+System call number 0
+Argument is 0
+System call code
