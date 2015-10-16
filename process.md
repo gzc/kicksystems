@@ -12,3 +12,9 @@ user mode and kernel mode can switch by setting EFLAGS bits.
 
 ###Obtaining Process IDs
 
+    #include <sys/types.h> 
+    #include <unistd.h>
+    pid_t getpid(void); 
+    pid_t getppid(void);
+
+                                Returns: PID of either the caller or the parent
