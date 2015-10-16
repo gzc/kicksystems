@@ -17,6 +17,8 @@ An exception is akin to a procedure call, but with some important differences :
 ###trap & system call
 trap是有意的异常(active),是执行一条指令的结果, 主动触发. trap最重要的用途是system call.
 
+read, fork, execve, exit都需要system call, 这些函数是os提供的服务, 必须运行在kernel mode.
+
 ###fault
 
 ###abort
