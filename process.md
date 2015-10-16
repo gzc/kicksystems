@@ -25,3 +25,8 @@ user mode and kernel mode can switch by setting EFLAGS bits.
     
     void exit(int status) 
                         This function does not return
+                        
+    #include <sys/types.h> 
+    #include <unistd.h>
+    
+    pid_t fork(void)
