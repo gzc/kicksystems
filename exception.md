@@ -5,4 +5,5 @@
 
 当系统启动时，操作系统会分配和初始化一个jump table,我们称为exception table. table的kth entry(k is exception number)包含address of the handler for exception k. Exception table的地址存放在exception table base register.
 
-
+An exception is akin to a procedure call, but with some important differences :
+1. 如果从用户程序转移到内核, 
