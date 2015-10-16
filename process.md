@@ -6,4 +6,5 @@
 
 context switch will make cache cold.
 
-user mode and kernel mode can switch by setting EFLAGS bits.  
+user mode and kernel mode can switch by setting EFLAGS bits.
+
