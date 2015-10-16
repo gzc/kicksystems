@@ -47,3 +47,5 @@ linux提供上百种系统调用. 每个系统调用都有一个唯一的整数�
 | 2 |  fork | Create new process | 29 |  pause | Suspend process until signal arrives |
 | 3 |  read | Read file | 37 |  kill | Send signal to another process |
 | 4 |  write | Write file | 48 |  signal | Install signal handler |
+
+System calls are provided on IA32 systems via a trapping instruction called int n, where n can be the index of any of the 256 entries in the IA32 exception table. Historically, system calls are provided through exception 128 (0x80).
