@@ -20,4 +20,7 @@ user mode and kernel mode can switch by setting EFLAGS bits.
 
                         Returns: PID of either the caller or the parent
                         
-###Creating and Terminating Processes               
+###Creating and Terminating Processes
+    #include <stdlib.h> 
+    
+    void exit(int status)
