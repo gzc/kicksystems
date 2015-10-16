@@ -23,3 +23,4 @@ read, fork, execve, exit都需要system call, 这些函数是os提供的服务, 
 一个经典的fault是page fault exception. 因此fault可能返回到当前指令.
 
 ###abort
+abort是不可恢复的致命错误造成的结果，通常是一些硬件错误.
