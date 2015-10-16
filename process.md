@@ -35,3 +35,5 @@ user mode and kernel mode can switch by setting EFLAGS bits.
 新创建的child process几乎和parent process一模一样, child process得到与parent process虚拟地址空间相同的（但是独立的）一份拷贝，包括文本,数据,bss段,堆以及用户栈,还有文件描述符. 
 
 注意, fork是COW(copy on write)的.
+
+###Reaping Child Processes
