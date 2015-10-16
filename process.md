@@ -69,4 +69,4 @@ A process waits for its children to terminate or stop by calling the **waitpid**
     #include <unistd.h>
     int execve(const char *filename, const char *argv[], const char *envp[]);
                         Does not return if OK, returns −1 on error
-execve调用一次从不返回
+execve调用一次从不返回，并没有创造出新的子进程，它只是在当前进程的上下文中加载并运行一个新的程序.
