@@ -35,3 +35,4 @@ abort是不可恢复的致命错误造成的结果，通常是一些硬件错误
 | 18 | Machine check |  abort |
 | 32-127 | OS-defined exceptions |  Interrupt or trap |
 | 128 (0x80) | System call |  trap |
+| 129–255 | OS-defined exceptions | Interrupt or trap |
