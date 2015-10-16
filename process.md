@@ -32,3 +32,4 @@ user mode and kernel mode can switch by setting EFLAGS bits.
     #include <unistd.h>
     
     pid_t fork(void)
+                        Return 0 to child, return child pid to parent
