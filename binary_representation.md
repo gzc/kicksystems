@@ -13,3 +13,9 @@ For example, the C expression <code>(3.14+1e20)-1e20</code> will evaluate to <co
         *x = *x ^ *y;
         *y = *x ^ *y;
     }
+<br />
+
+Looking at the following program
+
+    string str("");
+    cout << ss.length()-1 << endl;
