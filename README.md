@@ -1,4 +1,4 @@
-FuckSystems aims to help you fuck systems.
+KickSystems aims to help you kick systems.
 =======
 
 We will cover
