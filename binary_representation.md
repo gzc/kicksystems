@@ -21,4 +21,4 @@ Looking at the following program(my machine is 64 bit)
     cout << str.length()-1 << endl;
     cout << (((unsigned long)2 << 63)-1) << endl;
 
-What will the program output? <code>-1</code>? NO! In my machine, it outputs <code> 18446744073709551615 </code>. Because <code>length()</code> return a size_t data type. 
+What will the program output? <code>-1</code>? NO! In my machine, it outputs <code> 18446744073709551615 </code>. Because <code>length()</code> return a size_t data type, so there is a type conversion.
