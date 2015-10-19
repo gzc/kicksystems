@@ -20,4 +20,4 @@ Looking at the following program
     string str("");
     cout << str.length()-1 << endl;
 
-What will the program output? <code>-1</code>? NO! In my machine, it outputs <code> 18446744073709551615 </code>. Because 
+What will the program output? <code>-1</code>? NO! In my machine, it outputs <code> 18446744073709551615 </code>. Because <code>length()</code> return a size_t data type. 
