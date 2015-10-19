@@ -6,3 +6,10 @@ For example, the C expression <code>(3.14+1e20)-1e20</code> will evaluate to <co
 **little endian** : the least significant byte comes first—is referred to as little endian.
 
 **big endian** : the most significant byte comes first—is referred to as big endian.
+
+    //No need to take a local variable.
+    void inplace_swap(int *x, int *y) {
+        *y = *x ^ *y;
+        *x = *x ^ *y;
+        *y = *x ^ *y;
+    }
