@@ -15,9 +15,10 @@ For example, the C expression <code>(3.14+1e20)-1e20</code> will evaluate to <co
     }
 <br />
 
-Looking at the following program
+Looking at the following program(my machine is 64 bit)
 
     string str("");
     cout << str.length()-1 << endl;
+    cout << (((unsigned long)2 << 63)-1) << endl;
 
 What will the program output? <code>-1</code>? NO! In my machine, it outputs <code> 18446744073709551615 </code>. Because <code>length()</code> return a size_t data type. 
