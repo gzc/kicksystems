@@ -3,7 +3,7 @@ KickSystems aims to help you kick Systems.
 
 We will cover
 
-1. [Binary Representation](./binary_representation)
+1. [Binary Representation](./binary_representation.md)
 2. [Exception](./exception.md)
 3. [Process](./process.md)
 4. [Thread](./thread.md)
