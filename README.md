@@ -1,4 +1,4 @@
-KickSystems aims to help you kick systems.
+KickSystems aims to help you kick Systems.
 =======
 
 We will cover
