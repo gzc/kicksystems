@@ -111,4 +111,4 @@ Use three variables
 ####Deadlock&Livelock
 **DEADLOCK** Deadlock is a condition in which a task waits indefinitely for conditions that can never be satisfied - task claims exclusive control over shared resources - task holds resources while waiting for other resources to be released - tasks cannot be forced to relinguish resources - a circular waiting condition exists
 
-LIVELOCK Livelock conditions can arise when two or more tasks depend on and use the some resource causing a circular dependency condition where those tasks continue running forever, thus blocking all lower priority level tasks from running (these lower priority tasks experience a condition called starvation)
+**LIVELOCK** Livelock conditions can arise when two or more tasks depend on and use the some resource causing a circular dependency condition where those tasks continue running forever, thus blocking all lower priority level tasks from running (these lower priority tasks experience a condition called starvation)
