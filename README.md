@@ -3,10 +3,11 @@ KickSystems aims to help you kick Systems.
 
 We will cover
 
-1. [Exception](./exception.md)
-2. [Process](./process.md)
-3. [Thread](./thread.md)
-4. [Concurrency](./concurrency.md)
+1. [Binary Representation](./binary_representation)
+2. [Exception](./exception.md)
+3. [Process](./process.md)
+4. [Thread](./thread.md)
+5. [Concurrency](./concurrency.md)
 
 
 ***
