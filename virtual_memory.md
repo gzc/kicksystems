@@ -6,4 +6,4 @@
 
 **Page Fault** : A page fault (sometimes called #PF or PF) is a type of interrupt, called trap, raised by computer hardware when a running program accesses a memory page that is mapped into the virtual address space, but not actually loaded into main memory.
 
-**Multi-Level Page Tables : **
+**Multi-Level Page Tables : ** Imaging by yourself.
