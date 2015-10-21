@@ -8,3 +8,4 @@
 
 **Multi-Level Page Tables : ** Imaging by yourself.
 
+**Core i7** : Although 64 bits, it actually utilize only 48 bits.
