@@ -4,9 +4,9 @@
 * [Binary Representation](binary_representation.md)
 * [Linking](linking.md)
 * [Exception](exception.md)
+* [I/O](io.md)
 * [Process](process.md)
 * [Thread](thread.md)
 * [Concurrency](concurrency.md)
 * [Virtual Memory](virtual_memory.md)
-* [I/O](io.md)
 
