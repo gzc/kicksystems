@@ -12,4 +12,9 @@ Each process created by a Unix shell begins life with three open files: standard
 ##I/O Redirection
 <code>unix> ls > foo.txt</code>
 
+    #include <unistd.h>
+    int dup2(int oldfd, int newfd);
+
+                Returns: nonnegative descriptor if OK, −1 on error
+
 
