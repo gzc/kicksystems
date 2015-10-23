@@ -10,6 +10,6 @@ Each process created by a Unix shell begins life with three open files: standard
 * **v-node table**. Like the file table, the v-node table is shared by all processes. Each entry contains most of the information in the stat structure, including the st_mode and st_size members.
 
 ##I/O Redirection
-
+<code>unix> ls > foo.txt</code>
 
 
