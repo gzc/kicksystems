@@ -26,6 +26,6 @@ In Linux **ex4**, 1 and 2 are merged by checksum which makes writing faster.
 
 When crashed, we can apply **redo logging.** 
 
-**Batching Log Updates** is a trick to handle excessive write.
+**Batching Log Updates** is a trick to handle excessive write. For example, if a file inode and its directory inode are in the same block, we can't update them individually, we'd better batch log updates and write once.
 
 
