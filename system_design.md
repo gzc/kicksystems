@@ -23,4 +23,4 @@ We can make 26 small maps according to the first character of the word. If the w
 
     Lock(b)
     //wrirte
-    Unlock()
+    Unlock(b)
