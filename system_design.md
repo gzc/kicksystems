@@ -37,4 +37,4 @@ A : Making query in local machine will be much cheaper than making query to main
 
 Q : Yes it is very expensive, I mean passing a string is very expensive, how to deal with it?
 
-A : pass by hash value.
+A : Pass by hash value.
