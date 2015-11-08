@@ -31,4 +31,4 @@ Q : In the main server, the map is <string, vector<string>> pair, the intermedia
 
 A : It is a compression problem. First, we can apply Huffman encoding, CLRS tells me Huffman usually can compress 25% to 80%. Second, we can apply run-length encoding, for example "wwwww" can be "5Tw" and "aaaaaa" can be "6Ta".
 
-Q : 
+Q : It would be very expensive if the string we query is very long.
