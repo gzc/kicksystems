@@ -11,4 +11,6 @@ fsck is short for "file system consistency check". Journaling js also known as w
 fsck is a UNIX tool for finding such inconsistencies
 and repairing them. However, fsck can not deal with all the cases. If we only update inode structure but haven't written data to block, then the file system looks consistent but the inode points to garbage data. The only real goal of fsck is to make sure the file system metadata is internally consistent.
 
+###2. Journaling (or Write-Ahead Logging)
+
 
