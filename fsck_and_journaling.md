@@ -31,4 +31,5 @@ When crashed, we can apply **redo logging.**
 
 **Batching Log Updates** is a trick to handle excessive write. For example, if a file inode and its directory inode are in the same block, we can't update them individually, we'd better batch log updates and write once.
 
+###3. Other Approaches
 
