@@ -20,6 +20,6 @@ committed.
 3. Checkpoint: Write the contents of the update (metadata and data)
 to their final on-disk locations.
 
-TxB is the start block of transaction
+TxB is the start block of transaction, and TxE is the end.
 
 
