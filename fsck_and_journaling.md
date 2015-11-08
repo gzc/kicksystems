@@ -22,6 +22,6 @@ committed.
 3. Checkpoint: Write the contents of the update (metadata and data)
 to their final on-disk locations.
 
-In Linux **ex4**, 1 and 2 are merged by checksum.
+In Linux **ex4**, 1 and 2 are merged by checksum which makes writing faster.
 
 
