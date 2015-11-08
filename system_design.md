@@ -5,4 +5,4 @@
 
 Q : Assuming length of string reach 1 trillion, how to design the system.
 
-A : 
+A : If I have n machines, I could divide the string into n parts and do it and merge the result.
