@@ -24,6 +24,8 @@ to their final on-disk locations.
 
 In Linux **ex4**, 1 and 2 are merged by checksum which makes writing faster.
 
-When crashed, we can apply **redo logging.**
+When crashed, we can apply **redo logging.** 
+
+**Batching Log Updates** is a trick to handle excessive write.
 
 
