@@ -26,3 +26,5 @@ We can make 26 small maps according to the first character of the word. If the w
     Unlock(b)
     
 Apply this methodology, we can speed up 26 times in theory.
+
+Q : 
