@@ -29,4 +29,4 @@ Apply this methodology, we can speed up 26 times in theory.
 
 Q : In the main server, the map is <string, vector<string>> pair, the intermediate result can be very huge, how to improve?
 
-A : It is a compression problem.
+A : It is a compression problem. First, we can apply Huffman encoding, CLRS tells me Huffman usually can compress 25% to 80%. Second, we can apply run-length encoding, for example "wwwww" can be "5Tw" and "aaaaaa" can be "6Ta".
