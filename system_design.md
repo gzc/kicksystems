@@ -34,3 +34,5 @@ A : It is a compression problem. First, we can apply Huffman encoding, CLRS tell
 Q : It would be very expensive if the string we query is very long.
 
 A : Making query in local machine will be much cheaper than making query to main server. So we can make a copy in locak machine and update every hour, but it may be very expensive.
+
+Q : Yes it is very expensive, I mean passing a string is very expensive, 
