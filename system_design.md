@@ -19,4 +19,8 @@ A : In the main server, we have a map. At one time only support one machine to w
     //write
     Unlock()
     
-We can make 26 small maps according to the first character of the word.
+We can make 26 small maps according to the first character of the word. If the word starts with 'b', we can do like this :
+
+    Lock(b)
+    //wrirte
+    Unlock()
