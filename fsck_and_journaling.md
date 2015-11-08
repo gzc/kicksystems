@@ -14,7 +14,7 @@ and repairing them. However, fsck can not deal with all the cases. If we only up
 ###2. Journaling (or Write-Ahead Logging)
 TxB is the start block of transaction, and TxE is the end.
 
-Journal write: Write the contents of the transaction (containing TxB
+1. Journal write: Write the contents of the transaction (containing TxB
 and the contents of the update) to the log; wait for these writes to
 complete.
 2. Journal commit: Write the transaction commit block (containing
