@@ -11,6 +11,7 @@ We will cover
 6. [Process](./process.md)
 7. [Thread](./thread.md)
 8. [Concurrency](./concurrency.md)
+9. [FSCK and Journaling](./fsck_and_journaling.md)
 
 
 ***
