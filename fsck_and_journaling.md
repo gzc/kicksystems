@@ -33,3 +33,4 @@ When crashed, we can apply **redo logging.**
 
 ###3. Other Approaches
 
+
