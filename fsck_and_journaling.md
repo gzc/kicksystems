@@ -12,6 +12,12 @@ fsck is a UNIX tool for finding such inconsistencies
 and repairing them. However, fsck can not deal with all the cases. If we only update inode structure but haven't written data to block, then the file system looks consistent but the inode points to garbage data. The only real goal of fsck is to make sure the file system metadata is internally consistent.
 
 ###2. Journaling (or Write-Ahead Logging)
-
+1. Journal write: Write the contents of the transaction (including TxB,
+metadata, and data) to the log; wait for these writes to complete.
+2. Journal commit: Write the transaction commit block (containing
+TxE) to the log; wait for write to complete; transaction is said to be
+committed.
+3. Checkpoint: Write the contents of the update (metadata and data)
+to their final on-disk locations.
 
 
