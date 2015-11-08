@@ -33,4 +33,4 @@ A : It is a compression problem. First, we can apply Huffman encoding, CLRS tell
 
 Q : It would be very expensive if the string we query is very long.
 
-A : 
+A : Making query in local machine  than 
