@@ -27,4 +27,6 @@ We can make 26 small maps according to the first character of the word. If the w
     
 Apply this methodology, we can speed up 26 times in theory.
 
-Q : 
+Q : In the main server, the map is <string, vector<string>> pair, the intermediate result can be very huge, how to improve?
+
+A : It is a compression problem.
