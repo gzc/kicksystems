@@ -6,6 +6,6 @@ fsck is short for "file system consistency check". Journaling js also known as w
 
 ##Solutions
 
-1. 
+1. FSCK
 
 
