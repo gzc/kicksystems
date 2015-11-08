@@ -8,6 +8,7 @@ fsck is short for "file system consistency check". Journaling js also known as w
 
 ###1. FSCK
 
-
+fsck is a UNIX tool for finding such inconsistencies
+and repairing them.
 
 
