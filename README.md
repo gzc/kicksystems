@@ -12,7 +12,7 @@ We will cover
 7. [Thread](./thread.md)
 8. [Concurrency](./concurrency.md)
 9. [FSCK and Journaling](./fsck_and_journaling.md)
-10. [System Design](./system_design.md)
+10. [System Design and Question](./system_design.md)
 
 ***
 Follow [louis1992](https://github.com/gzc) for more resources.
