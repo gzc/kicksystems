@@ -111,3 +111,5 @@
     class Derive : public Base1, Base2{
  
     };
+    
+其实这个例子会产生4张vtable, Base1一张,Base2一张,Derive两个.只是Derive的vtable里面的内容和Base是一样的.
