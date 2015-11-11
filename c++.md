@@ -2,6 +2,8 @@
 
 ##1. Vtable
 
+讨论C++多态 virtual table的mempry layout
+
     #include<iostream>
     #include<stack>
     using namespace std;
