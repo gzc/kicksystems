@@ -95,3 +95,19 @@
 ![](./images/o_Drawing2.jpg) 
 ![](./images/o_vtable5.jpg)
 
+#Important
+一些小伙伴在纠结子类会不会share父类的表，请看下面这个例子.
+
+    class Base1 {
+public:
+    virtual void f1() { cout << "Base::f1" << endl; }
+};
+
+class Base2 {
+public:
+    virtual void f2() { cout << "Base::f2" << endl; }
+};
+
+class Derive : public Base1, Base2{
+ 
+};
