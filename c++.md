@@ -55,3 +55,5 @@
 
 首先,vtable的pointer存在对象的首地址.所以我们先取得对象首地址，变成int*再derefernece就可以取得vtable的address. 之后，函数指针就按顺序放在table entry我们可以顺序访问.我的是64bit的所以每次+8.
 
+
+
