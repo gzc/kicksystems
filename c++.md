@@ -113,3 +113,33 @@
     };
     
 其实这个例子会产生4张vtable, Base1一张,Base2一张,Derive两个.只是Derive的vtable里面的内容和Base是一样的.
+
+    #include<iostream>
+    using namespace std;
+
+    class Base1 {
+    public:
+        virtual void f1() { cout << "Base::f1" << endl; }
+    };
+
+    class Base2 {
+    public:
+        virtual void f2() { cout << "Base::f2" << endl; }
+    };
+
+    class Derive : public Base1, Base2{
+ 
+    };
+
+    int main()
+    {
+        Base1 b1;
+        Base2 b2;
+	    Derive d;
+ 
+        cout << "base1虚函数表地址：" << (int*)*(int*)(&b1) << endl;
+        cout << "base2虚函数表地址：" << (int*)*(int*)(&b2) << endl;
+	    cout << "child's base1虚函数表地址：" << (int*)*(int*)(&d) << endl;
+
+        return 0;
+    }
