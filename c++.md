@@ -59,3 +59,5 @@
 
 另外我不太熟悉Xcode的内存保护,这个代码无法在Xcode上跑，所以我是在ubuntu下测试的.
 
+下面的内容参考自[这里](http://blog.csdn.net/haoel/article/details/1948051)
+
