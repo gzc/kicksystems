@@ -93,5 +93,5 @@
 **多重继承（有虚函数覆盖）**
 
 ![](./images/o_Drawing2.jpg) 
-![](./images/o_vtable5.JPG)
+![](./images/o_vtable5.jpg)
 
