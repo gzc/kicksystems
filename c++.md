@@ -63,5 +63,5 @@
 
 
 **一般继承（无虚函数覆盖）**
-![](./images/)
+![](./images/o_Drawing3.jpg)
 
