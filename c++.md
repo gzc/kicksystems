@@ -64,7 +64,8 @@
 
 **一般继承（无虚函数覆盖）**
 
-![](./images/o_Drawing3.jpg)  ![](./images/o_vtable2.jpg)
+![](./images/o_Drawing3.jpg)  
+![](./images/o_vtable2.JPG)
 * 虚函数按照其声明顺序放于表中
 * 父类的虚函数在子类的虚函数前面。
 
@@ -72,3 +73,4 @@
 **一般继承（有虚函数覆盖）**
 
 ![](./images/o_Drawing4.jpg) 
+![](./images/o_vtable3.JPG)
