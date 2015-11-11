@@ -48,4 +48,4 @@ Q : Yes it is very expensive, I mean passing a string is very expensive, how to 
 
 A : Pass by hash value.
 
-##3. Large String Process
+##3. Message Queue
