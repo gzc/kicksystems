@@ -53,4 +53,5 @@
     Base::g
     Base::h
 
+首先,vtable的pointer存在对象的首地址.所以我们先取得对象首地址，变成int*再derefernece就可以取得vtable的address.
 
