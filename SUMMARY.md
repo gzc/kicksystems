@@ -11,5 +11,4 @@
 * [Virtual Memory](virtual_memory.md)
 * [FSCK and Journaling](fsck_and_journaling.md)
 * [System Design](system_design.md)
-* [Message Queue](message_queue.md)
 
