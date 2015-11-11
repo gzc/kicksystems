@@ -27,8 +27,8 @@
         cout << "虚函数表地址：" << (int*)*(int*)(&b1) << endl;
         cout << "虚函数表地址：" << (int*)*(int*)(&b2) << endl;
     
-        cout << "虚函数表 — 第一个函数地址：" << (int*)*(int*)(&b1) << endl;
-        cout << "虚函数表 — 第一个函数地址：" << (int*)*(int*)(&b2) << endl;
+        cout << "虚函数表 — 第一个函数地址：" << (int*)*(int*)*(int*)(&b1) << endl;
+        cout << "虚函数表 — 第一个函数地址：" << (int*)*(int*)*(int*)(&b2) << endl;
     
         // Invoke the first virtual function
         Fun pFun1 = (Fun)(*(int*)(*(int*)(&b1)));
