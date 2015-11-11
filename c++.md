@@ -57,3 +57,5 @@
 
 根据地址可以看出,虚函数是在.text段,vtable是在.data段.如果你运行在32bit的系统就会很清晰看到static变量就分配在vtable附近.
 
+另外我不太熟悉Xcode的内存保护,这个代码无法在Xcode上跑，所以我是在ubuntu下测试的.
+
