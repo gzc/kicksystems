@@ -79,3 +79,5 @@
 * 没有被覆盖的函数依旧。
 
 **多重继承（无虚函数覆盖）**
+![](./images/o_Drawing1.jpg) 
+![](./images/o_vtable4.JPG)
