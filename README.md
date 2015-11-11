@@ -1,6 +1,11 @@
 KickSystems aims to help you kick Systems.
 =======
 
+[Downloads](https://github.com/gzc/kicksystems/files/32059/KickSystems.pdf)
+
+####Sample Page
+![](./images/1.png)
+
 We will cover
 
 1. [Binary Representation](./binary_representation.md)
