@@ -6,5 +6,5 @@
 
 保证同一用户的消息按照顺序处理是应用的常见需求，发表微博、删除微博这两个操作必须按序处理，乱序势必造成业务逻辑错误。
 
-[reference]()
+[reference](http://www.bitstech.net/tag/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%EF%BC%8C-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
 
