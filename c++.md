@@ -144,3 +144,7 @@
     }
     
 **output:**
+
+    base1虚函数表地址：0x400df0
+    base2虚函数表地址：0x400db0
+    child's base1虚函数表地址：0x400d50
