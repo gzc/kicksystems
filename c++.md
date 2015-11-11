@@ -54,7 +54,7 @@
 
 首先,vtable的pointer存在对象的首地址.所以我们先取得对象首地址，变成int*再derefernece就可以取得vtable的address. 之后，函数指针就按顺序放在table entry我们可以顺序访问.我的是64bit的所以每次+8.
 
-在Linux下，虚函数表存放在可执行文件的只读数据段中(rodata).如果你运行在32bit的系统就会很清晰看到static变量就分配在vtable附近.
+在Linux下，虚函数表存放在可执行文件的只读数据段中(rodata).
 
 另外我不太熟悉Xcode的内存保护,这个代码无法在Xcode上跑，所以我是在ubuntu下测试的.
 
