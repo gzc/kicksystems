@@ -74,3 +74,6 @@
 
 ![](./images/o_Drawing4.jpg) 
 ![](./images/o_vtable3.JPG)
+
+* 覆盖的f()函数被放到了虚表中原来父类虚函数的位置。
+* 没有被覆盖的函数依旧。
