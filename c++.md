@@ -42,3 +42,13 @@
     
 **output:**
 
+    global variable address : 0x602070
+    虚函数表地址：0x400cb0
+    虚函数表地址：0x400cb0
+    虚函数表 — 第一个函数地址：0x400cb0
+    虚函数表 — 第一个函数地址：0x400cb0
+    Base::f
+    Base::g
+    Base::h
+
+
