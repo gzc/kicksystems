@@ -64,7 +64,8 @@
 
 **一般继承（无虚函数覆盖）**
 
-![](./images/o_Drawing3.jpg)  
+![](./images/o_Drawing3.jpg) 
+
 ![](./images/o_vtable2.JPG)
 * 虚函数按照其声明顺序放于表中
 * 父类的虚函数在子类的虚函数前面。
@@ -72,12 +73,17 @@
 
 **一般继承（有虚函数覆盖）**
 
-![](./images/o_Drawing4.jpg) 
+![](./images/o_Drawing4.jpg)
+
 ![](./images/o_vtable3.JPG)
 
 * 覆盖的f()函数被放到了虚表中原来父类虚函数的位置。
 * 没有被覆盖的函数依旧。
 
 **多重继承（无虚函数覆盖）**
+
 ![](./images/o_Drawing1.jpg) 
 ![](./images/o_vtable4.JPG)
+
+* 每个父类都有自己的虚表。
+* 子类的成员函数被放到了第一个父类的表中。（所谓的第一个父类是按照声明顺序来判断的）
