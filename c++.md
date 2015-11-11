@@ -5,7 +5,6 @@
 讨论C++多态 virtual table的mempry layout
 
     #include<iostream>
-    #include<stack>
     using namespace std;
 
     class Base {
@@ -143,3 +142,5 @@
 
         return 0;
     }
+    
+**output:**
