@@ -7,7 +7,7 @@
 3. C语言的setjmp + longjmp
 
 ##2. 如何实现ls
-1. open the metadata of this file.
+1. View the metadata of this file.
 2. if it is a normal file, only print filename.
 3. if it is a directory, open the directory(Note : directory is also a file, the content of directory is file and inode.), print all filenames in this directory.
 
