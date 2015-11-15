@@ -1,4 +1,4 @@
-KickSystems**V1.0** aims to help you kick Systems.
+KickSystems**V1.1** aims to help you kick Systems.
 =======
 
 [Downloads](https://www.gitbook.com/download/pdf/book/gzc/kicksystems)
