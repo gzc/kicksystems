@@ -20,6 +20,7 @@ We will cover
 10. [System Design](./system_design.md)
 11. [System Admin](./system_admin.md)
 12. [C++](./c++.md)
+13. [Trick](./c++.md)
 
 ***
 Follow [louis1992](https://github.com/gzc) for more resources.
