@@ -13,4 +13,5 @@
 * [System Design](system_design.md)
 * [C++](c++.md)
 * [System Admin](system_admin.md)
+* Trick
 
