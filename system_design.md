@@ -28,6 +28,8 @@ Top是一个超级资源管理器,提供了几乎可以说是所有的我们所�
     1 root      20   0   33780   3728   2264 S  0.0  0.4   0:02.63 init                                                                                
     2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                            
     3 root      20   0       0      0      0 S  0.0  0.0   0:00.96 ksoftirqd/0
+    
+Top 遍历 /proc 文件夹，以收集进程信息。/proc本身是一个虚拟文件系统，意味着它并非存在于真实硬盘之中，而是由 Linux 内核凭空创建，保存在内存中的。在文件夹中，如/proc/2097（2097为 PID），Linux 内核将与之关联的信息打印到此文件中，而这里就是 Top 的消息来源。
 
 ##4. Large String Process
 [Work BreakII](https://leetcode.com/problems/word-break-ii/)
