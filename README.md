@@ -19,7 +19,7 @@ We will cover
 9. [FSCK and Journaling](./fsck_and_journaling.md)
 10. [System Design](./system_design.md)
 11. [System Admin](./system_admin.md)
-11. [C++](./c++.md)
+12. [C++](./c++.md)
 
 ***
 Follow [louis1992](https://github.com/gzc) for more resources.
