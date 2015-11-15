@@ -46,3 +46,6 @@ A : Pass by hash value.
 消息队列系统是大型分布式系统中常见的组成部分之一.
 
 做个搬运工 [reference](http://blog.buaa.us/talk-about-mq/)
+
+Goal :
+1. 
