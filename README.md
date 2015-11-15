@@ -18,7 +18,7 @@ We will cover
 8. [Virtual Memory](virtual_memory.md)
 9. [FSCK and Journaling](./fsck_and_journaling.md)
 10. [System Design](./system_design.md)
-11. [System Admin](./system_design.md)
+11. [System Admin](./system_admin.md)
 11. [C++](./c++.md)
 
 ***
