@@ -14,6 +14,21 @@
 ##3. 关于Top
 Top是一个超级资源管理器,提供了几乎可以说是所有的我们所需要的系统资源使用监测.
 
+    top - 09:11:34 up 22:55,  5 users,  load average: 0.03, 0.04, 0.05
+    Tasks: 170 total,   2 running, 168 sleeping,   0 stopped,   0 zombie
+    %Cpu(s):  0.3 us,  0.0 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+    KiB Mem:   1008644 total,   881924 used,   126720 free,   100628 buffers
+    KiB Swap:  1046524 total,   113260 used,   933264 free.   160680 cached Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                             
+    1103 root      20   0  374836  38268  12980 S  0.7  3.8   2:06.44 Xorg                                                                                
+    2174 ganzhen+  20   0 1231068 145548  27752 S  0.3 14.4   5:01.95 compiz                                                                              
+    2401 ganzhen+  20   0  349000   5036   3872 S  0.3  0.5   0:00.26 zeitgeist-daemo                                                                     
+    2709 ganzhen+  20   0  581584  27624  13720 S  0.3  2.7   1:14.56 gnome-terminal                                                                      
+    1 root      20   0   33780   3728   2264 S  0.0  0.4   0:02.63 init                                                                                
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                            
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.96 ksoftirqd/0
+
 ##4. Large String Process
 [Work BreakII](https://leetcode.com/problems/word-break-ii/)
 
