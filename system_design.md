@@ -41,6 +41,8 @@ Top 遍历 /proc 文件夹，以收集进程信息./proc本身是一个虚拟文
 
 所以，有了这个认知之后，使用适度的更新间隔是明智的。基于文件系统访问内存也是需要时间的.经验法则是，对于多数用户来说，1到3秒的间隔就足够了。如果你的 Linux系统相对比较空闲，随意使用短间隔，如果不是，最好为重要的任务保留你的 CPU 时间.一个减少Top工作的办法是只监测特定的几个 PID。这样，Top 无需遍历 /proc 下所有的子文件夹.
 
+proc/stat文件的创建由函数proc_stat_init（）实现，在文件fs/proc/stat.c中，在内核初始化时调用./proc/stat文件相关函数时间均在stat.c文件中.
+
 ##4. Large String Process
 [Work BreakII](https://leetcode.com/problems/word-break-ii/)
 
