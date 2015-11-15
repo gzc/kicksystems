@@ -43,3 +43,4 @@ Q : Yes it is very expensive, I mean passing a string is very expensive, how to 
 A : Pass by hash value.
 
 ##2. Message Queue
+消息队列系统是大型分布式系统中常见的组成部分之一.
