@@ -1,7 +1,7 @@
 KickSystems**V1.0** aims to help you kick Systems.
 =======
 
-[Downloads](https://www.gitbook.com/book/gzc/kicksystems/details)
+[Downloads](https://www.gitbook.com/download/pdf/book/gzc/kicksystems)
 
 ####Sample Page
 ![](./images/1.png)
