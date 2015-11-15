@@ -48,4 +48,4 @@ A : Pass by hash value.
 做个搬运工 [reference](http://blog.buaa.us/talk-about-mq/)
 
 Goal :
-1. 可靠性.
+1. 可靠性.开发一个可靠性非常高的消息队列，无需为单点问题担忧.
