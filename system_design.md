@@ -11,7 +11,8 @@
 2. if it is a normal file, only print filename.
 3. if it is a directory, open the directory(Note : directory is also a file, the content of directory is file and inode.), print all filenames in this directory.
 
-##3. 关于top 
+##3. 关于Top
+top是一个超级资源管理器,Top 提供了几乎可以说是所有的我们所需要的系统资源使用监测
 
 ##4. Large String Process
 [Work BreakII](https://leetcode.com/problems/word-break-ii/)
