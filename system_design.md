@@ -12,7 +12,7 @@
 3. if it is a directory, open the directory(Note : directory is also a file, the content of directory is file and inode.), print all filenames in this directory.
 
 ##3. 关于Top
-Top是一个超级资源管理器,提供了几乎可以说是所有的我们所需要的系统资源使用监测.
+Top是一个超级资源监视器,提供了几乎可以说是所有的我们所需要的系统资源使用监测.
 
     top - 09:11:34 up 22:55,  5 users,  load average: 0.03, 0.04, 0.05
     Tasks: 170 total,   2 running, 168 sleeping,   0 stopped,   0 zombie
