@@ -32,10 +32,11 @@ Top是一个超级资源管理器,提供了几乎可以说是所有的我们所�
 Top 遍历 /proc 文件夹，以收集进程信息。/proc本身是一个虚拟文件系统，意味着它并非存在于真实硬盘之中，而是由 Linux 内核凭空创建，保存在内存中的。在文件夹中，如/proc/2097（2097为 PID），Linux 内核将与之关联的信息打印到此文件中，而这里就是 Top 的消息来源。
 
 注意: top不是实时的. stat文件中的信息是实时的，每0.01秒刷新一次。
-而top默认每隔3秒从stat中取出当前的值记录下来。
-那么CPU利用率可以使用以下两个方法。先取两个采样点，然后计算其差值：
-cpu usage=(idle2-idle1)/(cpu2-cpu1)*100
-cpu usage=[(user_2 +sys_2+nice_2) - (user_1 + sys_1+nice_1)]/(total_2 - total_1)*100 
+而top默认每隔3秒从stat中取出当前的值记录下来。那么CPU利用率可以使用以下两个方法。先取两个采样点，然后计算其差值(不用去管具体的含义,了解大致就行)：
+
+    cpu usage=(idle2-idle1)/(cpu2-cpu1)*100
+    cpu usage=[(user_2 +sys_2+nice_2) - (user_1 + sys_1+nice_1)]/(total_2 - total_1)*100 
+    
 对于这种采点的计算方式，采点的间隔时间越长，结果越准确
 
 ##4. Large String Process
