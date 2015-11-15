@@ -48,4 +48,4 @@ A : Pass by hash value.
 做个搬运工 [reference](http://blog.buaa.us/talk-about-mq/)
 
 Goal :
-1. 
+1. 可靠性.
