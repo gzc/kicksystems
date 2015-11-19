@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Concept](concept.md)
 * [Binary Representation](binary_representation.md)
 * [Linking](linking.md)
 * [Exception](exception.md)
@@ -14,5 +15,4 @@
 * [System Admin](system_admin.md)
 * [C++](c++.md)
 * [Trick](trick.md)
-* [Concept](concept.md)
 
