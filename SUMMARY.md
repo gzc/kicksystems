@@ -14,5 +14,5 @@
 * [System Admin](system_admin.md)
 * [C++](c++.md)
 * [Trick](trick.md)
-* Concept
+* [Concept](concept.md)
 
