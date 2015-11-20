@@ -9,3 +9,6 @@
 
 ##2. Can the OS be interrupted? 
 Sure.
+
+##3. What creates the first process?
+init is the first process, hard encoded in OS. Try run **pstree** in your linux machine.
