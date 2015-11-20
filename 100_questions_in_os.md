@@ -8,4 +8,4 @@
 
 
 ##2. Can the OS be interrupted? 
-Sure, Kernel also will page fault.
+Sure.
