@@ -21,3 +21,5 @@ In Linux it is 65536
     
     cat /proc/sys/kernel/pid_max
     
+##6. What does it mean for exec to return?
+    
