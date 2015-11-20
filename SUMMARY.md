@@ -14,6 +14,5 @@
 * [System Design](system_design.md)
 * [System Admin](system_admin.md)
 * [C++](c++.md)
-* [Trick](trick.md)
 * [100 Questions in OS](100_questions_in_os.md)
 
