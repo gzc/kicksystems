@@ -25,4 +25,4 @@ In Linux it is 65536
 Does not return if OK, returns −1 on error
 
 ##7. fork() can return an error. Why might this happen?
-When running out of memory or refer to Problem #5.
+When running out of memory or exceed processes a system can support.
