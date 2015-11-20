@@ -28,3 +28,5 @@ Does not return if OK, returns −1 on error
 When running out of memory or exceed processes a system can support.
 
 ##8. What happens if you run “exec csh” in your shell? What happens if you run “exec ls” in your shell? Try it.
+
+##9. What happens if a parent process exits before a child?
