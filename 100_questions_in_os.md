@@ -23,3 +23,6 @@ In Linux it is 65536
     
 ##6. What does it mean for exec to return?
 Does not return if OK, returns −1 on error
+
+##7. fork() can return an error. Why might this happen?
+When running out of memory or refer to Problem #5.
