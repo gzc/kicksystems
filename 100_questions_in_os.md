@@ -17,6 +17,7 @@ init is the first process, hard encoded in OS. Try run **pstree** in your linux 
 Ready.
 
 ##5. How many processes can a system support?
-In Linux
+In Linux it is 65536
     
     cat /proc/sys/kernel/pid_max
+    
