@@ -15,3 +15,5 @@ init is the first process, hard encoded in OS. Try run **pstree** in your linux 
 
 ##4. What state do you think a process is in most of the time? Running, Ready or Waitting?
 Ready.
+
+##5. How many processes can a system support?
