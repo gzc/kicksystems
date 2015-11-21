@@ -31,3 +31,5 @@ When running out of memory or exceed processes a system can support.
 
 ##9. What happens if a parent process exits before a child?
 Child process become zombie.
+
+##10. What is double fault?
