@@ -20,7 +20,21 @@ We will cover
 10. [System Design](./system_design.md)
 11. [System Admin](./system_admin.md)
 12. [C++](./c++.md)
-13. [Trick](./trick.md)
+13. [Questions](./trick.md)
+
+
+# Concept
+
+Before interview, make sure you are familiar with following important concepts in OS!
+
+* Protection (kernel/user mode)
+* Protected instructions
+* Memory protection
+* System calls
+* Interrupts and exceptions
+* Timer (clock)
+* I/O control and operation
+* Synchronization
 
 ***
 Follow [louis1992](https://github.com/gzc) for more resources.
