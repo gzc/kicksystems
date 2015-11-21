@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Concept](concept.md)
 * [Binary Representation](binary_representation.md)
 * [Linking](linking.md)
 * [Exception](exception.md)
